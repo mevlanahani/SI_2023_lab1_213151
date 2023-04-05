@@ -1,0 +1,21 @@
+cd Documents
+cd GitHub
+mkdir SI_2023_lab1_213151
+cd SI_2023_lab1_213151
+git init
+git remote add origing https://github.com/mevlanahani/SI_2023_lab1_213151.git
+touch README.md
+git add README.md
+git commit -m "Initial commit"
+touch SILab1.java
+git add SILab1.java
+git commit -m "Add java class"
+git push -u origin master
+touch logs.txt
+git log
+touch 213151
+git add logs.txt
+git add 213151.txt
+git commit -m "Final commit"
+git push -u origin master
+
